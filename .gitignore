@@ -1,0 +1,7 @@
+*.rpyb
+*.rpyc
+*.bak
+*~
+saves/
+log.txt
+tmp/
