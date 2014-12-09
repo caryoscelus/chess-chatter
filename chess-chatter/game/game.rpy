@@ -65,7 +65,7 @@ label game_mid:
         "What's he talking about?! Being human in gambling? Really?":
             $ moral -= 1
             "Well, probably he's just trying to let Susie's guard down."
-            "Or to soften her so that she would handle him better if he looses."
+            "Or to soften her so that she would handle him better if he loses."
         "He may have a point here.":
             $ moral += 1
             "Even if it doesn't change the whole situation, remaining human is always important."
@@ -193,7 +193,7 @@ label game_mid:
     
     "Then he abruptly stopped talking again, looking at the board."
     "His previous move was made without thinking and Susie used that."
-    "Now he had only one possible move and that was loosing queen without even taking weaker figure in exchange."
+    "Now he had only one possible move and that was losing queen without even taking weaker figure in exchange."
     "With a sad smile on his face, he made that move."
     "Susie looks more confident now."
     "Before, she looked so desperate that i couldn't see any glimmer of hope on her face."
@@ -329,6 +329,6 @@ label game_mid:
     call angry_crowd
     "Now public roars without any previous hesitation."
     "Those who won and those who lost their bets. And those who were watching for fun."
-    "Winner is praised and applaused, looser looses interest of most, while some notorious fellows already approach her to offer their dirty deals."
+    "Winner is praised and applaused, loser loses interest of most, while some notorious fellows already approach her to offer their dirty deals."
     
     return

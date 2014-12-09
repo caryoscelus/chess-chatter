@@ -31,7 +31,7 @@ label intro:
     show susie normal at from_right, small
     
     "When they finally appear near him, announcer continues."
-    anon "..Now, do you solemnly swear to fulfill your deal and pay fully and in time if you loose?"
+    anon "..Now, do you solemnly swear to fulfill your deal and pay fully and in time if you lose?"
     
     "(yeah, like it's even {i}possible{/i} to not pay fully when you have already deposited your bet)"
     "Both players nod in agreement and say something."
@@ -115,11 +115,11 @@ label woman_then_man:
 label man_description:
     "This man, who was called David, has just arrived here in our town a few days ago."
     "His shabby look and thin figure suggest that he's one of those who have lost everything and trying their luck to make living."
-    "Most of such fellows loose."
-    "And less lucky of them who fall into temptation to play with The Red King, loose everything."
+    "Most of such fellows lose."
+    "And less lucky of them who fall into temptation to play with The Red King, lose everything."
     "Everybody think they will be the first to win against him and get all the riches he offering."
     "But in the end, no one ever won in public game with King."
-    "And after each winning he kills the looser and adds their skull to his private collection."
+    "And after each winning he kills the loser and adds their skull to his private collection."
     "Something is definitely wrong with that man (as well as with those who agree to play with him, knowing his story)."
     "But luckily, today he is only watching. Probably there won't be any blood after games."
     ".."

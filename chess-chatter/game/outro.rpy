@@ -56,7 +56,7 @@ label outro_susie:
     show susie drinking at char_fadein
     
     "She stands near the bar, apparently waiting for barman to fulfill her order."
-    "He doesn't try to be fast. She bears no interest for him in current state of looser."
+    "He doesn't try to be fast. She bears no interest for him in current state of loser."
     "He's not the type who now awaits her probable \"moral fall\", neither for his own pleasure, nor for profit."
     "When he finally gives her some drink in a dirty glass, she greedily swallows it in a few gulps."
     "By her reaction, i can see she never drank something stronger than ale."
@@ -136,7 +136,7 @@ label outro_susie:
     me "Goodbye, Susie. I hope you made right choice."
     "She can't hear me now, but for some reason i still say it."
     ".."
-    "And then i just stand there, watching sunset even after loosing sight of her figure."
+    "And then i just stand there, watching sunset even after losing sight of her figure."
     
     return
 
