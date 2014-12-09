@@ -19,6 +19,9 @@ screen say(who, what, side_image=None, two_window=False):
         window:
             id "window"
 
+            xpadding 20
+            ypadding 10
+            
             has vbox:
                 style "say_vbox"
 
@@ -68,8 +71,10 @@ screen choice(items):
 
     window:
         style "menu_window"
-        xalign 0.5
-        yalign 0.5
+        #xalign 0.5
+        yalign 1.0
+        ymargin 20
+        xmargin 30
 
         vbox:
             style "menu"
@@ -81,7 +86,7 @@ screen choice(items):
 
                     button:
                         action action
-                        style "menu_choice_button"
+                        #style "menu_choice_button"
 
                         text caption style "menu_choice"
 
