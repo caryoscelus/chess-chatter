@@ -18,4 +18,7 @@ label credits:
     "http://freesound.org/people/ShawnyBoy/sounds/166191/"
     "http://freesound.org/people/unchaz/sounds/150954/"
     
+    "Font: averia"
+    "http://openfontlibrary.org/en/font/averia"
+    
     return
