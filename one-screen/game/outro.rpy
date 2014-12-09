@@ -9,6 +9,9 @@ label outro:
     
     "Announcer tries to outvoice the crowd, but he barely manages."
     anon "32 turn game by two amateurs with nearly their lives at stake, is now over in a funny ending where pure material weight doesn't matter anymore!"
+    
+    call angry_crowd(0, 10)
+    
     "His voice is somewhat formally happy like always when he can see the public was entertained and club gained a lot from bets."
     "It's his job to be happy at such moments, so all the sincerity has vanished long time ago."
     

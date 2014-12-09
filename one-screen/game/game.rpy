@@ -37,6 +37,10 @@ label game_mid:
     
     "But no matter how interesting this table is, game is usually more interesting than what it is played on."
     "I briefly look at the board."
+    
+    show bg chess opening
+    with dissolve
+    
     "First few moves were nothing interesting."
     "Only confirmed opponents have some basic openings knowledge."
     "Which isn't really surprising in a town famous for it's chess gambling, but still, one could expect worse from such shabby players."
@@ -79,6 +83,8 @@ label game_mid:
     dav "Probably that's because i heard stories and read books about sunny southern lands."
     dav "Otherwise, how could child even imagine that there could be different places?.."
     "Despite talking, David is still playing."
+    show bg chess two figures
+    with dissolve
     "There is no strict time control in such games, except for when players demand it."
     "So it's completely fine that his thinking takes some time."
     "But maybe he's doing that to distract opponent?.."
@@ -118,7 +124,7 @@ label game_mid:
     "I nearly completely ignored the sounds while i was watching David's speech and now wave of noise filled my ears."
     
     
-    show bg chess full
+    show bg chess eaten
     with dissolve
     
     #show bg at chess_zoom_board
@@ -162,6 +168,10 @@ label game_mid:
     dav "Price of shells is so low that you could hear gunfire all day long in several districts."
     dav "And these are not from armed thugs - no, security is good there because most of society is so maniac about their \"state\"."
     dav "These are from firing ranges where youngsters are trained to shoot."
+    
+    show bg chess black attack
+    with dissolve
+    
     "When he said \"shoot\", Susie looked at him and then moved queen to check his king."
     "He paused briefly, looking at board."
     "Then without much thinking, moved king away."
@@ -178,6 +188,9 @@ label game_mid:
     dav "Probably i was raised in completely different culture, but it seemed strange to me: they were so nice and friendly to me, complete stranger, just because i joined them."
     dav "And with the same easiness they killed or took away last means of living from other strangers who happened to be in their way."
     
+    show bg chess loosing queen
+    with dissolve
+    
     "Then he abruptly stopped talking again, looking at the board."
     "His previous move was made without thinking and Susie used that."
     "Now he had only one possible move and that was loosing queen without even taking weaker figure in exchange."
@@ -190,6 +203,7 @@ label game_mid:
     show fade_background at fast_fadeout
     show david at char_fadeout
     call ambient_normal
+    call angry_crowd
     
     "Public demanded action."
     "Some were in rage for this careless loss."
@@ -201,6 +215,7 @@ label game_mid:
     show fade_background at very_long_fadein
     show david at char_fadein
     call ambient_low
+    call angry_crowd(0)
     
     "David's face remained mostly calm through this noise, only twitching once or twice."
     
@@ -227,8 +242,12 @@ label game_mid:
     "And it was visible. He probably was gathering all his strength up to this moment."
     "But now he was clearly one of those tramps sleeping in the open air and eating rubbish."
     "Susie said something to him and he shook his head, looking back at board."
+    
+    show bg chess preparing counter
+    with dissolve
+    
     "Judging by his moves, he doesn't want to give up yet."
-    "David is clearly planning something, having placed Rooks in one line."
+    "David is clearly planning something, having placed rooks in one line."
     "Suddenly, Susie started to speak, not looking at him at all."
     
     show bg at chess_right
@@ -273,6 +292,10 @@ label game_mid:
     "David looks at her, but she only looks down."
     "I think he said something and she made a slight nod."
     "He looks to the board, probably deciding something important."
+    
+    show bg chess move knight
+    with dissolve
+    
     "Then, sighing, he moves knight with confidence of a man who has placed all his hope into single chance."
     "Atmosphere becomes more intense as he proceeds with attack preparations."
     "But Susie is either too depressed or feels too safe due to huge material advantage."
@@ -282,16 +305,28 @@ label game_mid:
     show bg at chess_center
     show david at from_right
     show susie scared at center_to_left
+    show fade_background at fast_fadeout
     call ambient_normal
-    stop music fadeout 3
+    stop music fadeout 2
+    
+    pause 2
+    
+    show bg chess check rooks
+    with dissolve
     
     "Another turn and David checks by opening rooks."
     "Susie again thinks for a while. Then considering possible material loss, she moves king into the corner."
     "Subtle victory smile appears on her opponent's face."
     "He checks again, sacrificing one of rooks."
     "Now black are forced to accept sacrifice."
+    
+    show bg chess mate
+    with dissolve
+    
     "And next move, already foreseen by a few professional players among the audience, is mate with that same knight."
     ".."
+    
+    call angry_crowd
     "Now public roars without any previous hesitation."
     "Those who won and those who lost their bets. And those who were watching for fun."
     "Winner is praised and applaused, looser looses interest of most, while some notorious fellows already approach her to offer their dirty deals."

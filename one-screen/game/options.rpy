@@ -26,12 +26,12 @@ init -1 python hide:
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
 
-    config.window_title = u"LD 31"
+    config.window_title = u"Chess Chatter"
 
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
-    config.name = "one-screen"
-    config.version = "0.0.1"
+    config.name = "chess-chatter"
+    config.version = "0.1.1"
 
     #########################################
     # Themes
@@ -281,7 +281,7 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    config.default_text_cps = 38
 
     ## The default auto-forward time setting.
 

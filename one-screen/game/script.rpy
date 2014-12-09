@@ -5,21 +5,6 @@ define me = Character('Me', what_color='#ffffff')
 
 image fade_background = Solid('#000000')
 
-image bg chess empty = LiveComposite(
-    (1280, 640),
-    (-70, 0), "bg chess",
-    (-70, 0), "board empty")
-
-image bg chess random = LiveComposite(
-    (1280, 640),
-    (-70, 0), "bg chess",
-    (-70, 0), "board random")
-
-image bg chess full = LiveComposite(
-    (1280, 640),
-    (-70, 0), "bg chess",
-    (-70, 0), "board full")
-
 label start:
     
     python:
